@@ -1,0 +1,64 @@
+.app {
+  border: 1px solid #ffb5b5;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 100em;
+  background: #ffb5b5;
+}
+
+.city-now {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  background: #407088;
+  padding: 20px;
+  margin: 15px auto;
+  border: 5px outset #132743;
+  border-radius: 20px;
+}
+.card {
+  border-radius: 30px;
+  margin: 0 auto;
+}
+.card-body {
+  text-align: center;
+}
+
+#today {
+  color: #ffb5b5;
+}
+
+.next {
+  color: #132743;
+  background: #407088;
+  border: 5px inset #ffb5b5;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+body {
+  background: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+}
+
+.day {
+  font-weight: bold;
+  color: rgb(252, 252, 185);
+  font-size: 25px;
+}
+
+.temp,
+.percip-wind {
+  font-style: italic;
+}
